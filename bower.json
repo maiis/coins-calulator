@@ -1,0 +1,11 @@
+{
+  "name": "coins-calculator",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "git://github.com/twbs/bootstrap-sass.git#v3.1.0",
+    "modernizr": "~2.6.2",
+    "jquery": "~2",
+    "requirejs": "~2.1.11"
+  },
+  "devDependencies": {}
+}

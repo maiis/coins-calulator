@@ -1,0 +1,57 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Coins Calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <!-- build:css styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
+        <!-- build:js scripts/vendor/modernizr.js -->
+        <script src="bower_components/modernizr/modernizr.js"></script>
+        <!-- endbuild -->
+
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <div class="container">
+            <div class="header">
+                <ul class="nav nav-pills pull-right">
+                    <li><a href="http://github.com/maiis/coins-calulator">github</a></li>
+                </ul>
+                <h3 class="text-muted">Coins Calculator</h3>
+            </div>
+
+            <div class="jumbotron">
+                <h1>Coins Calculator £</h1>
+                <p class="lead">Penny ! Penny ! Penny !</p>
+                <form id="convertForm">
+                    <div class="form-group">
+                        <input id="amountField" type="text" class="form-control input-lg" placeholder="Exemple: £1.23">
+                        <span class="error-msg help-block">Input Invalid</span>
+                    </div>
+                    <input type="submit" class="btn btn-lg btn-success" value="Convert!" />
+                </form>
+            </div>
+
+            <div id="resultsList"></div>
+
+            <div class="footer">
+                <p><a href="http://twitter.com/maiis">@maiis</a></p>
+            </div>
+        </div>
+
+        <!-- build:js scripts/main.js -->
+        <script data-main="scripts/main" src="bower_components/requirejs/require.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
