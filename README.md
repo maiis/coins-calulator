@@ -41,15 +41,13 @@ Likewise, the application should not accept the following inputs,
     | £1x.0p | 0 | non-numeric character |
     | £p | 0 | missing digits | 
 
-
-
-
-
-
-
-
-
-
+### Running
+Gulp is there to watch changes, lint javascript, compile sass and livereload
+```shell
+npm install
+bower install
+gulp watch
+```
 
 
 
